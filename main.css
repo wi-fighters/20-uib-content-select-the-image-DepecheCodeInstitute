@@ -16,7 +16,7 @@
   }
   /* Task 3 */
   img:first-of-type + img {
-    border-width: thick;
+    border: solid;
   }
   /* not sure why this is not working just yet */
   

@@ -1,26 +1,30 @@
-  main {
-    margin: 30px;
-  }
-  
-  img {
-    height: 100px;
-  }
-  
-  /* Task 1 */
-  h3 {
-    color: blue;
-  }
-  /* Task 2 */
-  .task-2 :nth-child(3), .task-2 :nth-child(4), .task-2 :nth-child(5){
-    color: red;
-  }
-  /* Task 3 */
-  img:first-of-type + img {
-    border: solid;
-  }
-  /* not sure why this is not working just yet */
-  
-  /* Task 4 */
-  
-  /* Task 5 */
+main {
+  margin: 30px;
+}
+
+img {
+  height: 100px;
+}
+
+/* Task 1 */
+h3 {
+  color: blue;
+}
+/* Task 2 */
+.task-2 :nth-child(3), .task-2 :nth-child(4), .task-2 :nth-child(5){
+  color: red;
+}
+/* Task 3 */
+img:first-of-type + img {
+  border: solid;
+}
+
+/* Task 4 */
+a[href*=".com"] {
+  background: yellow;
+}
+/* Task 5 */
+#task-5 {
+  color:orange;
+}
   

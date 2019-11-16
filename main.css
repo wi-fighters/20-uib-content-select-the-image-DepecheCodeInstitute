@@ -11,8 +11,14 @@
     color: blue;
   }
   /* Task 2 */
-  
+  .task-2 :nth-child(3), .task-2 :nth-child(4), .task-2 :nth-child(5){
+    color: red;
+  }
   /* Task 3 */
+  img:first-of-type + img {
+    border-width: thick;
+  }
+  /* not sure why this is not working just yet */
   
   /* Task 4 */
   
